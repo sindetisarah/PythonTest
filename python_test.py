@@ -71,9 +71,9 @@ class Rectangle:
         A=self.length*self.width
         return A
     def perimeter(self):
-        add=self.length+self.width
-        P=add*2
-        return P
+       P=2*( self.length+self.width)
+        
+       return P
 """
 instance of the object rectangle
 """
