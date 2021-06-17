@@ -26,8 +26,8 @@ flat_list(nested_listx)
 
 
 unsorted_numbers=[3,6,8,2,4,1,5,7]
-def smallest(unsorted):
-    sorted=unsorted.sort()
+def smallest(unsorted_numbers):
+    sorted=unsorted_numbers.sort()
     print(sorted)
 smallest(unsorted_numbers)
 
@@ -53,11 +53,11 @@ students=[
     {"age":18,"name":"Teresa"}
 
 ]
-def greetings(dictionary):
-    for student in dictionary:
-        name=student[name],
-        age=student[age]
-        print(f"Hello ${name} your born in {2021-age}")
+def greetings(students):
+    for student in students:
+        name=student["name"]
+        age=student["age"]
+        print(f"Hello {name} your born in {2021-age}")
 greetings(students)
 
 
@@ -67,10 +67,11 @@ class Rectangle:
         self.length=length
     def area(self):
         A=self.length*self.width
-        print( A)
+        return A
     def perimeter(self):
-        P=2(self.length+self.width)
-        print( P)
+        add=self.length+self.width
+        P=add*2
+        return P
 """
 instance of the object rectangle
 """
