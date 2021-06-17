@@ -37,7 +37,7 @@ def remove_duplicate(list):
     change_to_set=set(list)
     return change_to_set
     
-remove_duplicate(list_x)
+print(remove_duplicate(list_x))
 
 def divisible_by_seven():
     list_div_by_7=[]
@@ -49,8 +49,10 @@ divisible_by_seven()
 
 
 students=[
-    {"age":19,"name":"Agnes"},
-    {"age":18,"name":"Teresa"}
+    {"age":19,"name":"Eunice"},
+    {"age":18,"name":"Agnes"},
+    {"age":19,"name":"Teresa"},
+    {"age":19,"name":"Asha"}
 
 ]
 def greetings(students):
@@ -76,8 +78,8 @@ class Rectangle:
 instance of the object rectangle
 """
 rectangle=Rectangle(23,40)
-rectangle.area()
-rectangle.perimeter()
+print(rectangle.area())
+print(rectangle.perimeter())
 
 
 
